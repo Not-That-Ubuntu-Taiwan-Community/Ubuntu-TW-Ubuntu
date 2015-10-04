@@ -43,6 +43,9 @@
 
 ### 預設安裝了台灣規範的 Adobe Source Han Sans 字型
 
+### 預設將硬體時鐘時間視為本地時間
+Microsoft Windows 作業系統相容性
+
 ### 預設套用了一些還沒收入 Ubuntu 中的修正
 
 ### 預設採用[國家實驗研究院國家高速網路與計算中心自由軟體實驗室](http://free.nchc.org.tw/) 20 Gbps 的高速軟體來源鏡像站
