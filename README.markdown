@@ -36,6 +36,7 @@
 ### 預設使用正體中文語系與輸入法
 * 同時安裝了簡體中文與香港語系，增加介面在地化的程度
 * 預設使用 HIME 輸入法框架（同時安裝了 ibus 新酷音輸入法作為選用項目）
+* 預設安裝了中文 manpage 說明文件
 
 ### 預設支援中文顯示與輸入的 TTY 終端機
 * 藉由 fbterm 與 ucimf 專案的幫助支援了預設支援中文顯示與輸入的 TTY 終端機
@@ -43,6 +44,9 @@
 ### 預設安裝了台灣規範的 Adobe Source Han Sans 字型
 
 ### 預設套用了一些還沒收入 Ubuntu 中的修正
+
+### 預設採用[國家實驗研究院國家高速網路與計算中心自由軟體實驗室](http://free.nchc.org.tw/) 20 Gbps 的高速軟體來源鏡像站
+更短的軟體與更新下載時間
 
 ## 進行本軟體的開發需要的軟體<br />Dependencies for Development of This Software
 ### Ubuntu GNU/Linux 作業系統散佈版本
