@@ -46,10 +46,14 @@
 ### 預設將硬體時鐘時間視為本地時間
 Microsoft Windows 作業系統相容性
 
-### 預設套用了一些還沒收入 Ubuntu 中的修正
-
 ### 預設採用[國家實驗研究院國家高速網路與計算中心自由軟體實驗室](http://free.nchc.org.tw/) 20 Gbps 的高速軟體來源鏡像站
 更短的軟體與更新下載時間
+
+### 預設套用了一些還沒收入 Ubuntu 中的修正
+* 修正以 root 身份執行的程式無法使用中文輸入法的問題
+* 修正以 sudo 執行的命令預設會保留呼叫者的 HOME 環境變數的問題(Launchpad Bug #1373495)
+* 修正錯誤的 `/etc/adduser.conf` `NAME_REGEX` 預設值
+* 修正「安裝了 ucimf-chewing 但是新酷音輸入法還是叫不出來」的問題
 
 ## 進行本軟體的開發需要的軟體<br />Dependencies for Development of This Software
 ### Ubuntu GNU/Linux 作業系統散佈版本
