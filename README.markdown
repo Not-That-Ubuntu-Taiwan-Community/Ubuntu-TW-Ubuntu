@@ -35,19 +35,19 @@
 ## 特色<br />Features
 ### 預設使用正體中文語系與輸入法
 * 同時安裝了簡體中文與香港語系，增加介面在地化的程度
-* 預設使用 HIME 輸入法框架（同時安裝了 ibus 新酷音輸入法作為選用項目）
+* 預設使用 [HIME 輸入法框架](http://hime-ime.github.io/)（同時安裝了 ibus 新酷音輸入法作為選用項目）
 * 預設安裝了中文 manpage 說明文件
 
 ### 預設支援中文顯示與輸入的 TTY 終端機
 * 藉由 fbterm 與 ucimf 專案的幫助支援了預設支援中文顯示與輸入的 TTY 終端機
 
-### 預設安裝了台灣規範的 Adobe Source Han Sans 與台灣行政院研考會 CNS11643 字型
+### 預設安裝了符合台灣筆劃規範的 [Adobe 思源黑體](https://github.com/adobe-fonts/source-han-sans)與台灣行政院研考會 CNS11643 字型
 
 ### 預設支援中文訊息顯示的 Plymouth 開機畫面！
 菱形什麼的還是去死吧。
 
 ### 預設將硬體時鐘時間視為本地時間
-Microsoft Windows 作業系統相容性
+增加與 Microsoft Windows 作業系統的相容性
 
 ### 預設採用[國家實驗研究院國家高速網路與計算中心自由軟體實驗室](http://free.nchc.org.tw/) 20 Gbps 的高速軟體來源鏡像站
 更短的軟體與更新下載時間
