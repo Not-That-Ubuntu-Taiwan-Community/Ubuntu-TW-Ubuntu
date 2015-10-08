@@ -83,8 +83,7 @@
 
 ## 進行本軟體的開發需要的軟體<br />Dependencies for Development of This Software
 ### Ubuntu GNU/Linux 作業系統散佈版本
-
-其他需要的軟體請見各軟體建構解決方案的說明文件。
+### 一個虛擬機器軟體，比方說 Oracle VirtualBox
 
 ## 本目錄下的檔案與目錄說明<br />Description of files and directories under this directory
 ### [專案說明文件.markdown<br />README.markdown](README.markdown)
