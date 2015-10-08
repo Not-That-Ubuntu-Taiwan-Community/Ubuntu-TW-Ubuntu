@@ -81,6 +81,9 @@
 * 修正錯誤的 `/etc/adduser.conf` `NAME_REGEX` 預設值
 * 修正「安裝了 ucimf-chewing 但是新酷音輸入法還是叫不出來」的問題
 
+## 獲取軟體<br />Acquire software
+軟體下載連結位於本專案的[釋出頁面](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/releases)
+
 ## 進行本軟體的開發需要的軟體<br />Dependencies for Development of This Software
 ### Ubuntu GNU/Linux 作業系統散佈版本
 ### 一個虛擬機器軟體，比方說 Oracle VirtualBox
