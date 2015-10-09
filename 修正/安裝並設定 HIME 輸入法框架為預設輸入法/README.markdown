@@ -12,7 +12,7 @@
 1. 安裝 Git（`git-core` 軟體包）、`devscripts`、`equivs` 軟體包。
 1. 以 `root` 身份於終端機中於 `/usr/local/src` 目錄執行 `git clone https://github.com/hime-ime/hime.git` 命令複刻(fork) HIME 的軟體來源代碼庫。
 1. 以 `root` 身份編輯 `/usr/local/src/hime` 目錄下的 `distro/debian/control` 檔案，將 `Build-Depends` 行的 `dpkg | libqt4-dev | libqt3-mt-dev | libanthy-dev | libchewing3-dev | libappindicator-dev | libappindicator3-dev | qtbase5-private-dev` 段替換為
- ` | libqt3-mt-dev, libqt4-dev, qtbase5-private-dev, libappindicator-dev, libappindicator3-dev, libanthy-dev, libchewing3-dev`，將 `libgtk2.0-dev` 與 `libgtk-3-dev` 之間的 ` | ` 改為
+ `dpkg | libqt3-mt-dev, libqt4-dev, qtbase5-private-dev, libappindicator-dev, libappindicator3-dev, libanthy-dev, libchewing3-dev`，將 `libgtk2.0-dev` 與 `libgtk-3-dev` 之間的 ` | ` 改為
  `, `。
  1. 以 `root` 身份於終端機中於 `/usr/local/src/hime` 目錄下
 執行 `mk-build-deps ./distro/debian/control` 命令建構用於安裝[建構 HIME 需要用到的軟體](https://github.com/hime-ime/hime/wiki/Software-dependencies-for-building-HIME)的 `hime-build-deps` 軟體包， 建構完了之後用 Ubuntu 軟體中心或 Gdebi 軟體包安裝程式安裝該軟體包。
