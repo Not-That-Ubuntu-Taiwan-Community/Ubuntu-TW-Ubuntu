@@ -1,0 +1,10 @@
+# 將變更整合到系統全域
+要將變更套用到新的使用者上就必須將它整合到系統全域去，這邊有一些資源教您如何這樣做。
+
+## XFCE 桌面環境
+* `/etc/xdg`
+* `/etc/xdg/xdg-xubuntu`
+
+## `/etc/skel` 目錄
+## 參考資料<br />Reference Data
+* [System wide configuration (Page 1) / Desktop / Xfce Forums](http://forum.xfce.org/viewtopic.php?id=6999)
