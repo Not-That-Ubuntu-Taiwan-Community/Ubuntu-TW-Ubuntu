@@ -81,10 +81,10 @@
 ### 預設安裝了 SSH 伺服器與 Fail2ban
 
 ### 預設套用了一些還沒收入 Ubuntu 中的修正
-* 修正以 root 身份執行的程式無法使用中文輸入法的問題
-* 修正以 sudo 執行的命令預設會保留呼叫者的 HOME 環境變數的問題(Launchpad Bug #1373495)
-* 修正錯誤的 `/etc/adduser.conf` `NAME_REGEX` 預設值
-* 修正「安裝了 ucimf-chewing 但是新酷音輸入法還是叫不出來」的問題
+* 修正以 root 身份執行的程式無法使用中文輸入法的問題([Ubuntu Bug #1373521](https://bugs.launchpad.net/ubuntu/+source/sudo/+bug/1373521))
+* 修正以 sudo 執行的命令預設會保留呼叫者的 HOME 環境變數的問題([Ubuntu Bug #1373495](https://bugs.launchpad.net/ubuntu/+source/sudo/+bug/1373495))
+* 修正錯誤的 `/etc/adduser.conf` `NAME_REGEX` 預設值([Ubuntu Bug #1387825](https://bugs.launchpad.net/ubuntu/+source/adduser/+bug/1387825), [Debian Bug #630750](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=630750))
+* 修正「安裝了 ucimf-chewing 但是新酷音輸入法還是叫不出來」的問題([Ubuntu Bug #1395509](https://bugs.launchpad.net/ubuntu/+source/sudo/+bug/1395509))
 
 ## 獲取軟體<br />Acquire software
 軟體下載連結位於本專案的[釋出頁面](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/releases)
