@@ -1,0 +1,24 @@
+--- default.xml	2014-02-20 15:14:46.000000000 +0800
++++ default.xml.patched	2015-10-10 06:00:50.586326999 +0800
+@@ -17,6 +17,7 @@
+         <value type="int" value="4"/>
+         <value type="int" value="5"/>
+         <value type="int" value="6"/>
++        <value type="int" value="99"/>
+         <value type="int" value="2"/>
+       </property>
+     </property>
+@@ -70,5 +71,13 @@
+     </property>
+     <property name="plugin-13" type="string" value="separator"/>
+     <property name="plugin-14" type="string" value="directorymenu"/>
++    <property name="plugin-99" type="string" value="indicator">
++      <property name="blacklist" type="array">
++        <value type="string" value="com.canonical.indicator.keyboard"/>
++        <value type="string" value="com.canonical.indicator.session"/>
++        <value type="string" value="com.canonical.indicator.datetime"/>
++        <value type="string" value="libappmenu.so"/>
++      </property>
++    </property>
+   </property>
+ </channel>

@@ -19,112 +19,33 @@
 ##### 修改設定檔
 * `$HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml`
 
- ```xml
-<?xml version="1.0" encoding="UTF-8"?>
+```
+--- default.xml	2014-02-20 15:14:46.000000000 +0800
++++ default.xml.patched	2015-10-10 06:00:50.586326999 +0800
+@@ -17,6 +17,7 @@
+         <value type="int" value="4"/>
+         <value type="int" value="5"/>
+         <value type="int" value="6"/>
++        <value type="int" value="99"/>
+         <value type="int" value="2"/>
+       </property>
+     </property>
+@@ -70,5 +71,13 @@
+     </property>
+     <property name="plugin-13" type="string" value="separator"/>
+     <property name="plugin-14" type="string" value="directorymenu"/>
++    <property name="plugin-99" type="string" value="indicator">
++      <property name="blacklist" type="array">
++        <value type="string" value="com.canonical.indicator.keyboard"/>
++        <value type="string" value="com.canonical.indicator.session"/>
++        <value type="string" value="com.canonical.indicator.datetime"/>
++        <value type="string" value="libappmenu.so"/>
++      </property>
++    </property>
+   </property>
+ </channel>
+```
+ 
+#### 設定（系統全域）
+以 `root` 身份將 [_etc_xdg_xfce4_panel_default.xml.patch](_etc_xdg_xfce4_panel_default.xml.patch) 修正套用到 `/etc/xdg/xfce4/panel/default.xml` 檔案。
 
-<channel name="xfce4-panel" version="1.0">
-  <property name="configver" type="int" value="2"/>
-  <property name="panels" type="array">
-    <value type="int" value="1"/>
-    <value type="int" value="2"/>
-    <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=0;y=0"/>
-      <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="30"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
-        <value type="int" value="3"/>
-        <value type="int" value="15"/>
-        <value type="int" value="4"/>
-        <value type="int" value="5"/>
-        <value type="int" value="6"/>
-        <value type="int" value="16"/>
-        <value type="int" value="2"/>
-      </property>
-    </property>
-    <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=10;x=0;y=0"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="7"/>
-        <value type="int" value="8"/>
-        <value type="int" value="9"/>
-        <value type="int" value="10"/>
-        <value type="int" value="11"/>
-        <value type="int" value="12"/>
-        <value type="int" value="13"/>
-        <value type="int" value="14"/>
-      </property>
-    </property>
-  </property>
-  <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu"/>
-    <property name="plugin-2" type="string" value="actions"/>
-    <property name="plugin-3" type="string" value="tasklist"/>
-    <property name="plugin-15" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-4" type="string" value="pager"/>
-    <property name="plugin-5" type="string" value="clock"/>
-    <property name="plugin-6" type="string" value="systray">
-      <property name="names-visible" type="array">
-        <value type="string" value="hime"/>
-        <value type="string" value="networkmanager 面板程式"/>
-      </property>
-    </property>
-    <property name="plugin-7" type="string" value="showdesktop"/>
-    <property name="plugin-8" type="string" value="separator">
-      <property name="style" type="uint" value="1"/>
-    </property>
-    <property name="plugin-9" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14439940321.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-10" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14439940322.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-11" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14439940323.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-12" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14439940324.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="1"/>
-    </property>
-    <property name="plugin-14" type="string" value="directorymenu">
-      <property name="base-directory" type="string" value="/home/oem"/>
-    </property>
-    <property name="plugin-16" type="string" value="indicator">
-      <property name="known-indicators" type="array">
-        <value type="string" value="libapplication.so"/>
-        <value type="string" value="libprintersmenu.so"/>
-        <value type="string" value="libappmenu.so"/>
-        <value type="string" value="com.canonical.indicator.datetime"/>
-        <value type="string" value="com.canonical.indicator.keyboard"/>
-        <value type="string" value="com.canonical.indicator.power"/>
-        <value type="string" value="com.canonical.indicator.messages"/>
-        <value type="string" value="com.canonical.indicator.session"/>
-        <value type="string" value="com.canonical.indicator.bluetooth"/>
-        <value type="string" value="com.canonical.indicator.sound"/>
-      </property>
-      <property name="blacklist" type="array">
-        <value type="string" value="com.canonical.indicator.keyboard"/>
-        <value type="string" value="com.canonical.indicator.session"/>
-        <value type="string" value="com.canonical.indicator.datetime"/>
-        <value type="string" value="libappmenu.so"/>
-      </property>
-    </property>
-  </property>
-</channel>
-
- ```
