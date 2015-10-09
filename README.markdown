@@ -98,8 +98,6 @@
 本說明文件  
 This documentation
 
-## 常見問題與解答<br />Frequently Asked Questions and Answers
-
 ## 如何對本專案做出貢獻<br />How to Contribute to This Project
 ### 回報問題與改善建議<br />Report Issues and Improvement Suggestions
 發現問題或是有改善本專案的建議的話請到[本專案的議題追蹤系統(issue tracker)](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/issues)建檔回報。  
