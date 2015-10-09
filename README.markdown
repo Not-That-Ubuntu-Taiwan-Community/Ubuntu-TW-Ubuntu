@@ -1,6 +1,11 @@
 # 台灣社群非官方客製版 Ubuntu 作業系統<br />Taiwan Community Customized Unofficial Ubuntu Operating System
 <https://github.com/Vdragon/Ubuntu-TW-Ubuntu>
 
+## 內容大綱<br />Table of Contents
+如果這裡只看得到 [TOC] 的話代表這個閱讀器不支援 Markdown 的「內容大綱」擴充功能。
+
+[TOC]
+
 ## 本專案的智慧財產授權條款<br />Intellectual Property License of This Project
 除了另外聲明之內容以外，本作品之內容採用「Creative Commons **<span class="important_warning" style="color: red">姓名標示</span>**-**<span class="important_warning" style="color: red">相同方式分享</span>**第 3.0 版或其任意更近期版本」授權條款釋出供所有人在授權條款限制範圍內使用。  
 ![「創用 CC-BY-SA 3.0 台灣地區版本或其後版本」授權條款圖示](https://cdn.rawgit.com/Vdragon/Vdragon_s_License_Templates/217eea4d6e13a5f72eddf1f1a3b22dbdee9e9639/Creative%20Commons/CC%20BY-SA/Resources/Creative%20Commons%20CC-BY-SA%20logo.svg)
