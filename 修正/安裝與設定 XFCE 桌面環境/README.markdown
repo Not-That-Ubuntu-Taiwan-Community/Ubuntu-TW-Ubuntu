@@ -47,5 +47,5 @@
 ```
  
 #### 設定（系統全域）
-以 `root` 身份將 [_etc_xdg_xfce4_panel_default.xml.patch](_etc_xdg_xfce4_panel_default.xml.patch) 修正套用到 `/etc/xdg/xfce4/panel/default.xml` 檔案。
-
+1. 以 `root` 身份將 [_etc_xdg_xfce4_panel_default.xml.patch](_etc_xdg_xfce4_panel_default.xml.patch) 修正套用到 `/etc/xdg/xfce4/panel/default.xml` 檔案。
+1. 為了避免 XFCE 面板詢問新建立使用者要不要使用預設面板以 root 身份將 `/etc/xdg/xfce4/panel/default.xml` 複製到 `/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/` 目錄下。
