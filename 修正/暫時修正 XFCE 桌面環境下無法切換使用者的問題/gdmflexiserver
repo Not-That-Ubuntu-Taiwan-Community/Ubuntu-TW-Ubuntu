@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# replacement for missing gdmflexiserver in Ubuntu 14.04
+#
+dm-tool switch-to-greeter
+exit 0
