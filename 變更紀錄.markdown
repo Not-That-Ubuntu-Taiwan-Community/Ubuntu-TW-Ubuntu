@@ -1,5 +1,7 @@
 # 變更紀錄<br />Changelog
 ## 尚未釋出變更
+
+## Ubuntu 台灣社群非官方客製版作業系統v0.3.0-release201510120351 （基於 Ubuntu 14.04 長期支援版本）
 ### 修正問題<br />Solved issues
 * [修正 XFCE 桌面環境預設圖示主題不存在的問題](修正/修正%20XFCE%20桌面環境預設圖示主題不存在的問題/README.markdown)
 * [暫時修正 XFCE 桌面環境下無法切換使用者的問題](修正/暫時修正%20XFCE%20桌面環境下無法切換使用者的問題/README.markdown)
