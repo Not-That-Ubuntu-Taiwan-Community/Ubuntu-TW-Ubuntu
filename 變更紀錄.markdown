@@ -1,6 +1,7 @@
 # 變更紀錄<br />Changelog
 ## 尚未釋出變更
 ### 修正問題<br />Solved issues
+* [修正 XFCE 桌面環境預設圖示主題不存在的問題](修正/修正%20XFCE%20桌面環境預設圖示主題不存在的問題/README.markdown)
 * [暫時修正 XFCE 桌面環境下無法切換使用者的問題](修正/暫時修正%20XFCE%20桌面環境下無法切換使用者的問題/README.markdown)
 * 修正「[安裝與設定 XFCE 桌面環境](修正/安裝與設定%20XFCE%20桌面環境/README.markdown)」修正中的 XFCE4 面板設定沒有繼承到新使用者的問題
 * 修正「[設定 HIME 輸入法框架為預設輸入法](修正/安裝並設定 HIME 輸入法框架為預設輸入法/README.markdown)」修正沒有繼承到新使用者的問題
