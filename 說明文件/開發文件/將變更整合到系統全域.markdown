@@ -5,6 +5,11 @@
 * `/etc/xdg`
 * `/etc/xdg/xdg-xubuntu`
 
+## K 桌面環境(KDE)
+執行 `kde〈KDE 主版本號〉-config --path exe` 命令來察看 KDE 設定檔讀取優先順序，然後在系統目錄中建立同名的設定檔
+
 ## `/etc/skel` 目錄
+對於沒有系統全域設定檔的軟體來說只能將設定檔放在家目錄範本目錄中（變更不會套用到原先就存在的使用者）
+
 ## 參考資料<br />Reference Data
 * [System wide configuration (Page 1) / Desktop / Xfce Forums](http://forum.xfce.org/viewtopic.php?id=6999)
