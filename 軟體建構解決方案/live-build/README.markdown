@@ -42,6 +42,8 @@
 
 ### 1. 參考 `修正/` 目錄中的修正修改 `/usr/lib/live/build/` 目錄底下的 script
 
+### 1. 刪除 `config/?/exclude` 檔案
+
 ### 1. 以 root 身份執行 `env PROJECT=ubuntu ARCH=amd64 lb build` 開始建構 Live 安裝媒體
 * 為什麼在 launchpad-buildd 中需要再次設定 PROJECT、ARCH？
 
