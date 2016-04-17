@@ -38,13 +38,22 @@
 
 ### 1. 編輯 `config/binary` 設定檔，設定 `LB_SYSLINUX_THEME="ubuntu-trusty"`
 
+### 1. 將 `Preseed/ubuntu-tw-ubuntu.preseed` 複製到 `config/preseed/` 目錄中
+
+### 1. 參考 `修正/` 目錄中的修正修改 `/usr/lib/live/build/` 目錄底下的 script
+
 ### 1. 以 root 身份執行 `env PROJECT=ubuntu ARCH=amd64 lb build` 開始建構 Live 安裝媒體
 * 為什麼在 launchpad-buildd 中需要再次設定 PROJECT、ARCH？
 
+```
 ### 1. 由於 syslinux bootloader 被設定使用錯誤的 Linux 作業系統核心跟 initramfs 映像檔路徑，我們要手動修正它
+
 #### a. 以 root 身份編輯 `binary/isolinux/txt.cfg`，將 vmlinuz 跟 initrd.lz 替換為正確的名稱
+
 #### a. 移除 `lb binary iso` 的 stage file `.build/binary_iso`
+
 #### a. 重新以 root 身份執行 `lb binary`
+```
 
 ## 已知問題
 ### 預設 live-build 使用 11.10 版本 Ubuntu 的 Syslinux 主題
