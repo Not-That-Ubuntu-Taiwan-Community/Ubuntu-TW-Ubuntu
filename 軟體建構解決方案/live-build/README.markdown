@@ -34,8 +34,6 @@
 
 ### 1. 執行 `env PROJECT=ubuntu ARCH=amd64 SUITE=trusty BINARYFORMAT=iso-hybrid MIRROR=http://free.nchc.org.tw/ubuntu lb config` 產生設定檔
 
-### 1. 編輯 `config/bootstrap` 設定檔，設定 `LB_MIRROR_BINARY="http://free.nchc.org.tw/ubuntu/"`
-
 ### 1. 編輯 `config/binary` 設定檔，設定 `LB_SYSLINUX_THEME="ubuntu-trusty"`
 
 ### 1. 將 `Preseed/ubuntu-tw-ubuntu.preseed` 複製到 `config/preseed/` 目錄中
