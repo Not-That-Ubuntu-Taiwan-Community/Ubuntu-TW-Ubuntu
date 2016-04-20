@@ -4,12 +4,13 @@
 這也是 Ubuntu 官方目前在用的作法。
 
 ## 本軟體建構解決方案所依賴的軟體
-* live-build
-* livecd-rootfs
+* [live-build](https://launchpad.net/ubuntu/+source/live-build)
+* [livecd-rootfs](livecd-rootfs in Launchpad
+https://launchpad.net/livecd-rootfs)
 * syslinux-utils
 	* 用於 `isohybrid` 命令
-* ubuntu-cdimage（來源碼參考用）
-* launchpad-buildd（來源碼參考用）
+* [ubuntu-cdimage](https://launchpad.net/ubuntu-cdimage)（來源碼參考用）
+* [launchpad-buildd](https://launchpad.net/launchpad-buildd)（來源碼參考用）
 	* 據說是現在在用的[1]
 
 ### 參考資料
