@@ -1,5 +1,5 @@
 # 台灣社群非官方客製版 Ubuntu 作業系統<br />Taiwan Community Customized Unofficial Ubuntu Operating System
-<https://github.com/Vdragon/Ubuntu-TW-Ubuntu>
+<https://github.com/Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu>
 
 ## 內容大綱<br />Table of Contents
 如果這裡只看得到 [TOC] 的話代表這個閱讀器不支援 Markdown 的「內容大綱」擴充功能。
