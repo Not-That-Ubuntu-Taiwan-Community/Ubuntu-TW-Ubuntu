@@ -1,0 +1,9 @@
+# Git Tracking Ignore Rules
+
+## Ignore Unix-like style hidden files
+.*
+.*/
+
+## Not ignore git files
+!.git*
+
