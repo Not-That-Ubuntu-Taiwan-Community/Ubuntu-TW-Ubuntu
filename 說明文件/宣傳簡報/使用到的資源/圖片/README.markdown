@@ -36,6 +36,8 @@ Canonical Ltd.
 [Intellectual property rights policy | Terms and policies | Ubuntu](http://www.ubuntu.com/legal/terms-and-policies/intellectual-property-policy)
 
 ## Taiwan mainland curve.svg
+![圖片預覽](Taiwan%20mainland%20curve.svg)
+
 ### 來源
 MStargazer (author of the original work: Luuva) 所做之 Free area of the Republic of China.svg 的衍伸作品
 
@@ -48,5 +50,13 @@ Creative Commons [Attribution-Share Alike 4.0 International](https://creativecom
 
 
 ## 特色 - 預設支援中文訊息顯示的 Plymouth 開機畫面！修正前
-### 來源
+![圖片預覽](特色%20-%20預設支援中文訊息顯示的%20Plymouth%20開機畫面！修正前.png)
 
+### 來源
+[Bug #1339954 “Unable to display Chinese in Plymouth labels” : Bugs : plymouth package : Ubuntu](https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1339954)
+
+### 作者
+[zhangchao](https://launchpad.net/~zctgbhu)
+
+### 遵循的授權條款
+不存在（依合理使用原則使用）
