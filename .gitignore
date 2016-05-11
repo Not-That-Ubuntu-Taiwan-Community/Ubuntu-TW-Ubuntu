@@ -4,6 +4,9 @@
 .*
 .*/
 
+## 匯出用文件格式
+*.pdf
+
 ## Not ignore git files
 !.git*
 
