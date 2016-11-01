@@ -1,4 +1,4 @@
-![# 台灣社群非官方客製版 Ubuntu 作業系統<br />Taiwan Community Customized Unofficial Ubuntu Operating System](資源/專案%20Logo.png)  
+![# 台灣社群非官方客製版 Ubuntu 作業系統<br />Taiwan Community Customized Unofficial Ubuntu Operating System](https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu/blob/fff4c105945bce53463bad3ae6af49f26bf22755/%E8%B3%87%E6%BA%90/%E5%B0%88%E6%A1%88%20Logo.png)  
 <https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu>
 
 ## 內容大綱<br />Table of Contents
