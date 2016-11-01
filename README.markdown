@@ -14,7 +14,7 @@
 
 * 姓名標示  
   **<span class="important_warning" style="color: red">BY</span>** as known as Attribution
-	* 您必須**以本作品指定的方式**明確地標註本作品創作者的名稱「Ｖ字龍 &lt;<Vdragon.Taiwan@gmail.com>&gt;」於本作品之任何衍伸作品中（且不得以任何方式暗示本作品為您或您使用本作品的方式背書）。
+	* 您必須**以本作品指定的方式**明確地標註本作品創作者的名稱「不是那個 ubuntu 台灣社群 &lt;<https://github.com/Not-That-Ubuntu-Taiwan-Community>&gt;」於本作品之任何衍伸作品中（且不得以任何方式暗示本作品為您或您使用本作品的方式背書）。
 * 相同方式分享  
   **<span class="important_warning" style="color: red">S</span>**hared **<span class="important_warning" style="color: red">A</span>**like
 	* 本作品之衍伸作品必須以本作品採用之授權條款釋出
@@ -105,12 +105,12 @@ This documentation
 
 ## 如何對本專案做出貢獻<br />How to Contribute to This Project
 ### 回報問題與改善建議<br />Report Issues and Improvement Suggestions
-發現問題或是有改善本專案的建議的話請到[本專案的議題追蹤系統(issue tracker)](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/issues)建檔回報。  
-File report at [this project's issue tracker](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/issues) if you noticed some problem or have improvement suggestions.
+發現問題或是有改善本專案的建議的話請到[本專案的議題追蹤系統(issue tracker)](https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu/issues)建檔回報。  
+File report at [this project's issue tracker](https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu/issues) if you noticed some problem or have improvement suggestions.
 
 ### 貢獻本專案內容<br />Contribute Contents to This Project
-要貢獻內容的話歡迎[建立您的分支版本倉庫](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/fork)，建立並切換至一個新的 Git 分支(branch)完成編輯後提交(commit)為一個新版本，推送(push)到您的 GitHub 遠端版本倉庫再跟我們[建檔拉取請求(pull request)](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/pull/new)。  
-[Create your fork repository](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/fork), create and switch to a new Git branch, do your edits and commit as a new version, push them to your remote repository on GitHub and [file us a pull request](https://github.com/Vdragon/Ubuntu-TW-Ubuntu/pull/new)!
+要貢獻內容的話歡迎[建立您的分支版本倉庫](https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu/fork)，建立並切換至一個新的 Git 分支(branch)完成編輯後提交(commit)為一個新版本，推送(push)到您的 GitHub 遠端版本倉庫再跟我們[建檔拉取請求(pull request)](https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu/pull/new)。  
+[Create your fork repository](https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu/fork), create and switch to a new Git branch, do your edits and commit as a new version, push them to your remote repository on GitHub and [file us a pull request](https://github.com/Not-That-Ubuntu-Taiwan-Community/Ubuntu-TW-Ubuntu/pull/new)!
 
 ### 宣傳本專案給別人<br />Promote!
 將本專案宣傳出去，讓更多人知道有這個專案！  
